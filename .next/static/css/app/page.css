@@ -1,0 +1,12 @@
+/*!***************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[3]!./src/app/reference/repository/avatarimages/1/style.css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************************/
+/* RoundedImage.css */
+
+.rounded-image {
+    border-radius: 50%;
+    /* You can adjust the percentage to control the amount of rounding */
+    width: 100px; /* Adjust the width as needed */
+    height: 100px; /* Adjust the height as needed */
+  }
+  
