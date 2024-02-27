@@ -1,4 +1,4 @@
-// File: D:\Nitesh\practical\reference-upskills\js-framework\next.js\nextjs-mini-project-effort\src\app\page.js
+// File: D:\Nitesh\practical\reference-upskills\js-framework\next.js\nextjs-app-mini-project-effort\src\app\page.js
 import * as entry from '../../../src/app/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

@@ -1,12 +1,42 @@
-/*!***************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[3]!./src/app/reference/repository/avatarimages/1/style.css ***!
-  \***************************************************************************************************************************************************************************************************************************************************************************************************/
-/* RoundedImage.css */
-
-.rounded-image {
-    border-radius: 50%;
-    /* You can adjust the percentage to control the amount of rounding */
-    width: 100px; /* Adjust the width as needed */
-    height: 100px; /* Adjust the height as needed */
+/*!************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[3]!./src/app/reference/repository/imagezoom/1/style.css ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************************/
+.image-zoom-container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    max-width: 600px; /* Set a maximum width for the container */
+  }
+  
+  .image-zoom-container img {
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .zoom-controls {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .zoom-controls button {
+    margin-bottom: 5px;
+    padding: 5px 10px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .zoom-controls button:hover {
+    background-color: #2980b9;
   }
   
