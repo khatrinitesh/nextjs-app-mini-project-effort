@@ -4,6 +4,7 @@ import React, { useState } from "react";
 import "./style.css";
 
 const CustomApp = () => {
+    
 
     const data =[
         {text:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',maxLength:50},
